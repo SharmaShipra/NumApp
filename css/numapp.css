@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+#border
+{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: blueviolet;
+    padding: 10px;
+}
+
+button[type=button]
+{
+    color: white;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    padding: 4px;
+    margin-left: 4px;
+}
+
+ input[type=text]:focus
+{
+   
+  border-color: skyblue !important;  
+  border-width: 4px;
+  box-shadow: none;
+  outline: none;
+  
+} 
+input[type=text]
+{
+    font-size: larger;
+    text-align: left;
+
+}
+#check
+{
+    border-style: double;
+    font-size: 40px;
+    text-align: center;
+    border-color: rgb(0, 5, 5);
+    padding: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
