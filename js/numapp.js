@@ -37,6 +37,9 @@ function submit() {
     if (number == "") {
         alert("Please enter a value");
     }
+    else if(number>10000){
+        document.getElementById("validation").innerHTML= "Please enter a string or a number between 0 to 10000"
+    }
     else {
         SetLoader();
         setTimeout(function () {
